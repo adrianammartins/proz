@@ -9,8 +9,6 @@ body{
 display: flex;
 flex-flow: row wrap ;
 background: cadetblue;
-
-
 }
 .span{
    flex: 20%;
@@ -53,6 +51,9 @@ background: cadetblue;
 .menu a:hover{
     color: brown;
     border-top:4px solid blue;
+}
+main{
+    justify-content: center;
 }
 .tema{
     text-align: center;
