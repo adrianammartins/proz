@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+.header{
+display: flex;
+flex-flow: row wrap ;
+background: cadetblue;
+
+
+}
+.span{
+   flex: 20%;
+    border: 1x solid black;
+    color: blue;
+    text-align: left;
+    font-size: 34px;
+    margin-left: 5%;
+    padding: 30px;
+}
+/*.logo{
+    flex: 20%;
+    margin-left: 3%;
+    border: 1px solid black;
+    text-align: left;
+    width: 50px;
+    height: 50px;
+}*/
+   
+.navbar{
+    display: flex;
+    margin-right: 5%;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+   
+}
+.menu{
+    flex: 70%;
+   width: 100%;
+    padding: 5%;
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    padding: 20px 10px;
+  
+}
+.menu a:hover{
+    color: brown;
+    border-top:4px solid blue;
+}
+.tema{
+    text-align: center;
+    color:blue;
+}
+.img{
+  
+  text-align: center;
+}
+.section{
+    display: flex;
+}
+.paragrafo{
+    display: inline-blockj;
+    
+}
+.footer{
+  
+    display: flex;
+    background-image:linear-gradient(aqua, cadetblue ); 
+
+}
+/*.imagem{
+   border: 1px solid red;
+   right: 100%; 
+}*/
+.contato{
+    display: flex;
+    margin: 5%;
+}
+.menu2{
+    color: blue;
+    font-size: 20px;
+    font-size: 20px;
+  
+}
+.menu2 a{
+    text-decoration: none;
+}
+.menu2 a:hover{
+    color: brown;
+}
